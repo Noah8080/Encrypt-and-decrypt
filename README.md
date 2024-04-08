@@ -1,2 +1,3 @@
 # Encrypt-and-decrypt
 Accepts a string from the user and encrypts it with an AES algorithm. The encrypted text is written to a file, that file is then read from and the contents are decrypted back into the original string 
+I chose to use the AES (advanced encryption style) algorithm for a couple reasons. First, it is considered an encryption standard that is used by many organizations around the world. Second, it is symmetrical and uses a block cypher, which allows for the same key to be used for encryption and decryption. Third, it has spent years going through cryptanalysis and still no significant vulnerabilities have been discovered in it.
